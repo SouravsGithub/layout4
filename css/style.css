@@ -78,6 +78,51 @@ nav > a {
 
 /* HERO SECTION STYLING */
 
+.hero {
+  background: #5f748d;
+  color: white;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.hero h1 {
+  font-size: 4.6rem;
+  margin: 0;
+  padding-top: 10%;
+  font-weight: 500;
+  transform: scaleY(1.5);
+  padding-bottom: 7.5%;
+  text-align: center;
+}
+.hero p {
+  font-size: 1.5rem;
+  text-align: center;
+  transform: scaleY(1.5);
+  margin-bottom: 6%;
+  padding: 0;
+}
+.hero span {
+  font-size: 2rem;
+  display: block;
+  text-align: center;
+  padding-top: 0.5%;
+  margin-left: 4%;
+}
+.hero img {
+  position: absolute;
+  width: 3%;
+  left: 39%;
+}
+.hero span + span {
+  font-size: 1rem;
+  color: rgba(63, 63, 63, 0.672);
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 9%;
+  padding-bottom: 3%;
+  margin: 0;
+}
 footer {
 }
 
