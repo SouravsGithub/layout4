@@ -152,7 +152,7 @@ nav > a {
 
 .third {
   background: #dbdfe2;
-  height: 120vh;
+  height: 127vh;
 }
 .third-container {
   height: 100%;
@@ -160,7 +160,7 @@ nav > a {
   margin: 0 auto;
   display: flex;
   gap: 3%;
-  padding-top: 8%;
+  padding-top: 9%;
 }
 .third-container > * {
   flex: 1;
