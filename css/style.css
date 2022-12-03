@@ -137,7 +137,7 @@ nav > a {
 .second h2 {
   font-size: 2.5rem;
   transform: scaleY(1.6);
-  font-weight: medium;
+  font-weight: 600;
   margin-bottom: 2%;
 }
 .second p {
@@ -194,6 +194,42 @@ nav > a {
 }
 .right-container a {
   padding: 1.2rem 5rem;
+}
+
+/* LAST SECTION STYLING */
+
+.last {
+  width: 50%;
+  margin: 8% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+.last h2 {
+  font-size: 2rem;
+  transform: scaleY(2);
+  font-weight: 600;
+  margin-bottom: 2%;
+  letter-spacing: 3px;
+}
+.last p {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 500;
+  margin: 0;
+  padding: 3% 0 10% 0;
+}
+.last a {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 0.8rem 4rem;
+  font-size: 1.1rem;
+  transform: scaleY(1.5);
+  font-weight: 600;
 }
 footer {
 }
